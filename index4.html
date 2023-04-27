@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Legacy</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  .animationsi {
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+    .shadowbox{
+     user-select: none;
+     width: 97,4%;
+     height: 50px;
+     padding: 20px;
+     background-color: rgb(159, 206, 71);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .dives{
+      text-align: center;
+    }
+    body { 
+      overflow-x: hidden;
+      
+    }
+    .topper {
+      user-select: none;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      border: none;
+      background-color: rgb(189, 189, 189);
+      transition-duration: 0.4s;
+      padding: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align:center;
+      font-size: large;
+    }
+    .button3 {   
+  background-color: rgb(0, 54, 5); 
+  color: rgb(58, 219, 66); 
+  border: 2px solid #646464;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .button3:hover {
+      
+  background-color: #8f02b3;
+  color: rgb(255, 255, 255);
+    }
+    body{
+      user-select: none;
+      background-image: url("Glam_Metal.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.411), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+    }
+    .maininfo{
+      user-select: none;
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .maintext{
+      user-select: none;
+      text-align: center;
+      margin-top: -430px;
+      font-size: 80px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .maintextes {
+     color: rgb(235, 0, 195); 
+     text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .maintextes:hover {
+     color: rgb(2, 179, 2);
+    }
+    .blokinfo {
+      position: fixed;
+      margin-top: 60px;
+      background-color: white;
+      box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.411), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+    }
+    .blokinfo_inside {
+      position:sticky;
+      margin-top: -60px;
+      background-color: white;
+      box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.411), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+      
+    }
+      
+    .animationvideo{
+      animation-duration: 3s;
+      animation-name: slidein;
+      text-align: center;
+      margin-top: 35%;
+    }
+    </style>
+</head>
+
+<body>
+  <div class="shadowbox">
+    <div class="dives">
+      <a href="index.html"><button class="topper button3" aling="center">На Головну</button></a>
+      <a href="index3.html"><button class="topper button3" aling="center">ХЕВІ МЕТАЛ</button></a>
+      <a href="index2.html"><button class="topper button3" aling="center">БЛЮЗ-РОК</button></a>
+      <a href="index5.html"><button class="topper button3" aling="center">ПАНК РОК</button></a>
+    </div>
+  </div>
+  
+    <div class="blockinfo">
+        <div class = "animationvideo">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SRwrg0db_zY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+              </iframe>
+        </div>
+    </div>
+    <div class="maininfo">
+      
+      <div class="maintext maintextes">
+      <p class="animationsi">Let's Rock!</p>
+      </div>
+      
+      <div class="blokinfo_inside">
+      <p class="animationsi">За океаном виник зовсім інший стиль металу. Glam Metal - це яскравий одяг, найчастіше жіночі, макіяж і манікюр, що робили групи схожими на дівчат, але шалено популярними.
+
+        Тоді метал став найпопулярнішим стилем музики, його транслювали всіма каналами, особливо допоміг розкрутці стилю MTV.
+        
+        Найяскравішим прикладом є гурт Twisted Sister. 
+    </div>
+    </div>
+    
+    
+<script src="script.js"></script>
+</body>
+
+</html>
